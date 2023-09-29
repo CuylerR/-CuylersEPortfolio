@@ -60,7 +60,7 @@ li{
 }
 
 .container{
-    padding: 50px 0;
+    padding: 1rem;
 }
 
 .row{
@@ -247,10 +247,14 @@ nav{
 /* TECH STACK */
 
 .language__img{
-    align-self: center;
+    display: flex;
+    width: 8rem;
+    transition: all 300ms ease;
+    padding-left: 1rem;
+    /* align-self: center;
     width: 100%;
     max-width: 50px;
-    transition: all 300ms ease;
+    transition: all 300ms ease; */
 }
 
 .language:hover .language__img {
@@ -263,21 +267,22 @@ nav{
     display: flex;
     justify-content: center;
     position: relative;
+    
+    padding-right: 5rem;
 }
 
 .language__img--wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 16px;
+    padding-right: 20rem;
+    padding: 25px;
 }
 .language__list {
+    margin-left: 1rem;
     display: flex;
     width: 100%;
-    /* flex-wrap: wrap; */
-    flex-wrap: wrap;
-    flex-wrap: nowrap;
-    justify-content: center;
+    margin-right: 20rem;
 }
 .language__name{
     position: absolute;
@@ -302,6 +307,10 @@ nav{
 }
 .project:last-child{
     margin-bottom: 40px;
+}
+.hr__img{
+    width: 40rem;
+    height: 100%;
 }
 .project__img{
     width: 100%;
@@ -358,7 +367,7 @@ nav{
     font-size: 40px;
 }
 .project__description--para{
-    margin: 16px 0;
+    margin-top: 3rem;
 }
 .project__description--link{
     font-size: 20px;
