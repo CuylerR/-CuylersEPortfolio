@@ -275,14 +275,16 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 20rem;
+    padding-right: 200rem;
     padding: 25px;
 }
 .language__list {
-    margin-left: 1rem;
+    text-align: left;
+    align-items: left;
+    /* margin-left: 1rem; */
     display: flex;
     width: 100%;
-    margin-right: 20rem;
+    margin-right: 1rem;
 }
 .language__name{
     position: absolute;
