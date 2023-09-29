@@ -437,7 +437,8 @@ nav{
         font-size: 18px;
     }
     .language{
-        width: calc(100% / 3);
+        right: 10px;
+        width: calc(100% / 5);
     }
     .project__description--para{
         font-size: 14px;
