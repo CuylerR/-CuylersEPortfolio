@@ -480,4 +480,8 @@ nav{
     .project__description--sub-title{
         margin: 12px 0;
     }
+    .homescreen__img{
+
+        left:2rem;
+    }
 }
