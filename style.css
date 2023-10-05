@@ -321,7 +321,9 @@ nav{
 
 }
 .homescreen__img{
-    width: 25%;
+    width: 70%;
+    /* justify-content: center; */
+    display: flex;
 }
 .project__wrapper{
     display:flex;
