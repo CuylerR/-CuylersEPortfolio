@@ -137,6 +137,7 @@ nav{
     font-size: 24px;
     color: #4169e1;
     margin: 0 12px;
+    margin-left: 4rem;
     font-weight: bold
 }
 /* ABOUT ME */
@@ -149,15 +150,17 @@ nav{
     min-height: 100vh;;
     display: flex;
     flex-direction: column;
+    padding-top: 3rem;
 }
 .about-me__info-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
+    margin-right: 2rem;
+    text-align: right;
 }
 .about-me__picture--mask{
     width: 100px;
@@ -166,6 +169,7 @@ nav{
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
+    margin-right: 4rem;
     animation: animate-profile-picture 1000ms 200ms backwards;
 }
 @keyframes animate-profile-picture {
@@ -194,6 +198,7 @@ nav{
 
 .about-me__info--title{
     margin-bottom: 16px;
+    margin-right: 1rem;
     animation: fade-up 550ms 800ms backwards;
 }
 
